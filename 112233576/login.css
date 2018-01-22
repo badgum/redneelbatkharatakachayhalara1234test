@@ -1,0 +1,36 @@
+#form-barrier{
+  width: 0px;
+  height: 230px;
+}
+form{
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+#input_wrapper{
+  padding: 0 30px;
+}
+.input-field{
+  width: 300px;
+  height: 30px;
+  padding: 4px 10px;
+  margin:10px auto;
+
+}
+
+input[type=submit] {
+  width: 106px;
+  height: 43px;
+  padding:10px 25px;
+  background:#3eb510;
+  border:0 none;
+  cursor:pointer;
+  color: white;
+  font-size: 18px;
+}
+input[type=submit]:hover {
+    background:#00cc61;
+}

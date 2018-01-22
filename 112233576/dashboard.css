@@ -1,0 +1,32 @@
+#dashboard-wrapper{
+  width: 100%;
+  height:1000px;
+  background: #ffffff;
+}
+#left-part{
+  width: 20%;
+  height: 700px;
+}
+#middle-part{
+  width:60%;
+  height: 1000px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+}
+#d-main{
+  margin: 20px;
+}
+#title{
+  width: 80%;
+  height: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+#right-part{
+  width: 20%;
+  height: 700px;
+}
+.hhh{
+  height: 10px;
+}
