@@ -1,0 +1,353 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.s{
+  margin:0;
+  padding:0;
+}
+.bwh{
+  background: white;
+}
+.w100{
+  width:100%;
+}
+#gh{
+  z-index: 8;
+  box-shadow: 0 1px 3px rgba(255,0,0,1), 0 1px 3px rgba(255,0,0,1);
+  position: fixed;
+}
+.ghh{/* grand header height */
+  height: 60px;
+}
+#ph{
+  z-index: 99;
+  height: 60px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#lasb{
+  width: 70%;
+  height:60px;
+}
+#logo{
+  padding: 10px 15px;
+  margin-top: 4px;
+}
+#logo img{
+  width: 124px;
+  height: 30px;
+}
+#sal{
+  width:auto;
+  height: 50px;
+  padding: 8px;
+  float: right;
+}
+#sab{
+  width:auto;
+  margin: 5px;
+}
+.sbh{/* search button height */
+  height:34px;
+}
+#search{
+  width: 520px;
+  border: 1px solid #067BCA;
+  padding:0px 15px;
+  box-sizing: border-box;/* it has solved the height problem among Firefox and chrome */
+  background: white;
+  color: black;
+  border-radius: 2px 0px 0px 2px;
+  font-size: 1em;
+}
+#button{
+
+  padding:0 24px;
+  background:#f9f9f9;
+  border:0;
+  border:1px solid #067BCA;
+  color:black;
+  width:auto;
+  cursor:pointer;
+  border-radius: 0px 2px 2px 0px;
+}
+#lsh a{
+  cursor: pointer;
+  height: 0px;
+}
+#lsh{
+  height: 35px;
+  box-shadow: 0 1px 3px rgba(0,128,255,1), 0 1px 3px rgba(6,123,202,1);
+}
+#lco{
+  height: 42px;
+  top: -38px;
+  position: relative;
+  background: white;
+}
+#lcl{
+  height: 37px;
+  top: -76px;
+  position: relative;
+}
+#lcl:hover{
+  cursor:pointer;
+}
+
+.lal{/* lsh and lco shared style */
+  width:20px;
+}
+.sau{/* sbt and ulwr shared styles */
+  width: 315px;
+  padding-right: 10px;
+}
+#tbwr{
+  width: auto;
+  height: auto;
+  right: -325px;
+}
+#bn-box{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+#bn{
+  float: left;
+}
+#ulwr{
+  background:;
+
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  height: 50px;
+  padding: 8px;
+}
+li a:hover{
+  background: #cccccc;
+}
+.bn-i{
+  padding:;
+}
+.bn-i img{
+  height: 30px;
+  width: auto;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+/* ************************Header Part End******************************** */
+#mosto{
+  width: 100%;
+  height: 250px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+  background: white;
+}
+#mb{
+  width: 0px;
+  height: 65px;
+
+}
+.mocl{
+  width: 32%;
+  height: 165px;
+  float: left;
+  background: pink;
+  margin-top: 10px
+}
+#prdct{
+  margin-left: 1%;
+}
+#srvcs{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#plcs{
+  margin-right: 1%;
+}
+/**********************************Mosto Part End*********************** */
+
+#mc{
+  width: 100%;
+  height: 1500px;
+}
+
+#mca{
+  background: white;
+  min-height: 200px;
+  width: 84%;
+  padding-bottom: 80px;
+  padding-top: 30px;
+}
+#ad-a{
+  width: 96%;
+  margin: 0 2%;
+}
+
+/********************************* Mc Part End ********************* */
+
+#sc-h{
+  z-index: 9;
+  top: 60px;
+  margin-left: .6%;
+  position: sticky;
+  width: 15.4%;
+  max-width: 302px;
+  height: 40px;
+  border-bottom: 2px solid #EEEEEE;
+  background: white;
+  border-top: 5px solid #067BCA;
+  box-sizing: border-box;
+}
+#sc-b{
+  z-index: 7;
+  margin-left: .6%;
+  width: 15.4%;
+  max-width: 302px;
+  height: calc(100% - 100px);
+  top: 100px;
+  position: sticky;;
+  background: white;
+  box-sizing: border-box;
+}
+
+/************** Side Chick Part End ************ */
+#footer{
+  margin-top: -100px;
+  width: 84%;
+  height: 100px;
+  background: white;
+  bottom: 0;
+}
+@media screen and (max-width:1024px){
+  #ph{
+    width:1007px;
+  }
+
+  #search{
+    width: 420px;
+    padding: 0 8px;
+  }
+  #button{
+  }
+  #tbwr{
+    right:-272px;
+  }
+  .sau{
+    width: 267px;
+    padding-right: 5px;
+  }
+  li a {
+      padding: 6px 6px;
+  }
+  .bn-i img{
+    height: 25px;
+    width: 25px;
+  }
+
+  #mosto{
+    width: 1007px;
+  }
+  #mc{
+    width: 1007px;
+  }
+  #mca{
+    width: 727px;
+  }
+
+
+
+}
+@media screen and (max-width:1280px) {
+  #sc-h{
+    width: 0px;
+    height: 0px;
+  }
+  #sc-b{
+    width: 0px;
+    height: 0px;
+  }
+  #mca{
+    width: 100%;
+  }
+}
+
+@media  screen
+  and (min-width:1024px), and (max-width:1366px){
+    #ph{
+      width:100%;
+    }
+    #search{
+      width: 420px;
+      padding: 0 8px;
+    }
+    #button{
+
+    }
+
+    #tbwr{
+      right:-272px;
+    }
+    .sau{
+      width: 267px;
+      padding-right: 5px;
+    }
+    .bn-i img{
+      height: 25px;
+      width: 25px;
+    }
+
+
+  }
+
+@media screen and (min-width:1367px){
+  #search{
+    width: 520px;
+    padding: 0 8px;
+  }
+
+}
+@media screen and (min-width:1533px){
+  #ph{
+    width: 1517px;
+    margin: 0 auto;
+  }
+  #search{
+    width: 570px;
+    padding: 0 8px;
+  }
+  #mosto-box{
+    width: 1517px;
+    margin: 0 auto;
+  }
+  #prdct{
+    width: 33%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  #plcs{
+    width: 33%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  #master{
+    width: 1517px;
+    margin: 0 auto;
+  }
+
+}
